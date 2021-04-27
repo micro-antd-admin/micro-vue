@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 12",
+    "price": 6400,
+    "description": "系统软件体验最好的手机"
+  },
+  {
+    "id": 2,
+    "name": "iPhone 12 mini",
+    "price": 5800,
+    "description": "系统软件体验最好的手机的小屏"
+  },
+  {
+    "id": 3,
+    "name": "小米 11",
+    "price": 3999,
+    "description": "性价比最好的手机"
+  }
+]
