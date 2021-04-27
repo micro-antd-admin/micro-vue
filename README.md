@@ -1,8 +1,5 @@
 # turing-micro
 
-## 具体详细微应用集成指南查看confluence文档
-[微应用接入指南](http://confluence.interfocus.org/pages/viewpage.action?pageId=45875424)
-
 ## Project setup
 ```
 npm install
