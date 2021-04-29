@@ -17,19 +17,12 @@ const routesConfig = [
   {
     router: 'parent',
     name: 'MicroApp',
-    path: '/',
-    children: [
-      {
-        router: 'microHome',
-        name: 'HomePage',
-        path: 'home'
-      },
-      {
-        router: 'microAbout',
-        name: 'AboutPage',
-        path: 'about'
-      }
-    ]
+    path: '/'
+  },
+  {
+    router: 'test',
+    name: 'test',
+    path: '/test'
   }
 ]
 

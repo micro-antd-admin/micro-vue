@@ -18,7 +18,7 @@ function render (props = {}) {
   const { container, asyncRouterConfig } = props
   console.log('turing-micro asyncRouterConfig', asyncRouterConfig)
   router = initRouter(asyncRouter)
-  // console.log('turing-micro路由', router)
+  console.log('turing-micro路由', router)
   loadRoutes(router, asyncRouterConfig, asyncRouter)
   vueInstance = new Vue({
     router,

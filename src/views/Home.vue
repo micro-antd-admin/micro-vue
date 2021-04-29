@@ -15,6 +15,9 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  mounted () {
+    console.log('vue 微应用首页', this.$route)
   }
 }
 </script>

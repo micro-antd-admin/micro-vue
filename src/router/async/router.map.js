@@ -1,6 +1,7 @@
 // 用户异步路由的映射表，根据动态路由配置匹配路由映射表解析动态路由
 const view = {
   blank: () => import('@/layouts/BlankLayout.vue'),
+  test: () => import('@/views/Test.vue'),
   microHome: () => import('@/views/Home.vue'),
   microAbout: () => import('@/views/About.vue')
 }
@@ -22,9 +23,13 @@ const routerMap = {
   parent: {
     component: view.blank
   },
+  test: {
+    component: view.test,
+    path: 'test'
+  },
   home: {
     path: 'home',
-    name: 'ome',
+    name: 'home',
     component: view.microHome
   },
   about: {
