@@ -3,7 +3,7 @@ const host = process.env.HOST
 const port = process.env.PORT
 
 module.exports = {
-  publicPath: process.env.VUE_APP_PUBLIC_PATH,
+  // publicPath: process.env.VUE_APP_PUBLIC_PATH,
   // outputDir: 'dist/turing-micro',
   devServer: {
     host,
